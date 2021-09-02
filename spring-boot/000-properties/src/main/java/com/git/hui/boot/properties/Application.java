@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public Application(YmlProperties ymlProperties) {
+        System.out.println("starting...");
         System.out.println(ymlProperties);
     }
 
